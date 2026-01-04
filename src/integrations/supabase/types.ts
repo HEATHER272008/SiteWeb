@@ -497,7 +497,45 @@ export type Database = {
       }
     }
     Views: {
-      [_ in never]: never
+      personnel_public: {
+        Row: {
+          created_at: string | null
+          department: string | null
+          description: string | null
+          display_order: number | null
+          id: string | null
+          is_active: boolean | null
+          name: string | null
+          photo_url: string | null
+          position: string | null
+          updated_at: string | null
+        }
+        Insert: {
+          created_at?: string | null
+          department?: string | null
+          description?: string | null
+          display_order?: number | null
+          id?: string | null
+          is_active?: boolean | null
+          name?: string | null
+          photo_url?: string | null
+          position?: string | null
+          updated_at?: string | null
+        }
+        Update: {
+          created_at?: string | null
+          department?: string | null
+          description?: string | null
+          display_order?: number | null
+          id?: string | null
+          is_active?: boolean | null
+          name?: string | null
+          photo_url?: string | null
+          position?: string | null
+          updated_at?: string | null
+        }
+        Relationships: []
+      }
     }
     Functions: {
       has_role: {
