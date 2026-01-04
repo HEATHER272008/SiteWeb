@@ -30,21 +30,29 @@ const About = () => {
           <h2 className="text-3xl font-serif font-bold text-primary mb-6">Our History</h2>
           <div className="prose prose-lg max-w-none text-muted-foreground">
             <p className="mb-4">
-              Binmaley Catholic School, Inc. was founded with a vision to provide quality Catholic
-              education to the youth of Binmaley and surrounding communities. Since our establishment,
-              we have remained committed to our founding principles of academic excellence, moral
-              integrity, and spiritual growth.
+              Binmaley Catholic School, Inc., formerly Binmaley Catholic High School is a hidden gem for any newcomer, built in the heart of the town but beautifully concealed by other structures such as the Our Lady of Purification Church, Stella Maris Hospital (now the Oscar V. Cruz building), and Mary Help of Christian's Seminary. 
             </p>
             <p className="mb-4">
-              Throughout the years, BCSI has grown from a small institution into a respected
-              educational facility known for producing well-rounded graduates who excel in their
-              chosen fields. Our alumni have gone on to become leaders in various industries,
-              carrying with them the values and principles instilled during their time at BCSI.
+              BCHS, or BCSI, had humble origins. Established in June 1947 by the former parish priest, Rev. Fr. Francis L. Kutscher, SVD, and most Rev. Federico G. Limon, SVD, then assistant parish priest. It housed its first two hundred freshmen and sophomores in a nipa hut building that also served as a Catholic chapel adjacent to the church. A portion of the church served as a makeshift classroom until a concrete one-story structure was built in late 1947. The Bureau of Private Schools approved the operation of the four-year academic high school in 1948, and it was officially recognized in 1950. 
             </p>
-            <p>
-              Today, we continue to uphold our tradition of excellence while adapting to modern
-              educational standards and methodologies, ensuring our students receive the best
-              possible preparation for their future.
+            <p className="mb-4">
+              To meet the standard requirement for school buildings, the main building was built in 1955 by the school's founder and assistant, Rev. Augustine Herbers, SVD, with the assistance of the new director, Rev. Fr. Henry Lattenkamp, SVD, and the school's principal, Mr. Pedro Castro. Additional lots near the main building were purchased by Fr. Lattenkamp and Fr. Leo Muehi. They also improved the school grounds and constructed school fencing. The late Rev. Alfred Kunze, SVD, succeeded Fr. Rac gave the structure a fresh look by painting it. 
+            </p>
+            <p className="mb-4">
+              Fr. Leo Behneke's administration made significant, large-scale modifications to the school. He had the low-lying rice fields covered, planted, and converted into PMT, and then CAT parade grounds. Additional structures proceeded to sprout, with the first ten classroom buildings built in 1966-1967, the second in 1970, and the third for the faculty room and the Home Economics. These structures were built on the north and west sides of the parade grounds. Pavements leading to the annex buildings were also constructed. The school plant grew rapidly throughout BCHS' silver and golden years. It flew to remarkable success in academic, spiritual, and cultural activities. 
+            </p>
+            <p className="mb-4">
+              The retirement of Fr. Behneke, the school's director in 1990, brought in Fr. Jose Carino, the new school principal, with his assistant, Fr. Juan Joel F. Ynzon, Fr. Carino, during his interim directorship, was able to have a concrete stage built behind the main building. Fr. Ynzon, the new director, constructed a director's residence on school grounds to serve as the director's quarters. A year later, he sought additional upgrades. The elementary department, which served grades 1-3, opened between 1933 and 1994. Following an increase in demand for quality education based on Christian values, a two-story elementary building was built to serve grade school students. To finish the elementary level, another eight-room building was constructed in front of the annex high school building. The expansion did not stop, but rather marched on. The elementary and pre-elementary departments were officially recognized by the government in 1977 and 1988. 
+            </p>
+            <p className="mb-4">
+              Binmaley Catholic High School, Inc. was renamed Binmaley Catholic School, Inc. by amending Article 1 of the modified Articles of Incorporation in accordance with SEC Regulations. No. 105766 was issued on the 29th of July 1998. As a result, the teachers and staff must be limited and the terrain altered. An idea of establishing a gym to accommodate a variety of activities became a reality. Facilities were also upgraded especially with the advancement of modern technology. 
+            </p>
+            <p className="mb-4">
+              Today, Binmaley Catholic School, Inc. endeavors to be a center for quality Catholic education, responding to the changing needs of the times. It has a glorious past to treasure, a proud tradition to preserve, a duty to complete, a high standard to uphold, and a profound dedication to the school's motto, "For God and Country," to live by.
+            </p>
+            <p className="mb-4">
+              
+
             </p>
           </div>
         </section>
@@ -129,9 +137,13 @@ const About = () => {
               <CardContent className="p-8">
                 <h3 className="text-2xl font-serif font-bold text-primary mb-4">Mission</h3>
                 <p className="text-muted-foreground">
-                  To provide quality Catholic education that nurtures the spiritual, intellectual,
-                  and social development of every student, empowering them to become responsible
-                  citizens and effective leaders guided by Christian values.
+                  To achieve the vision, Binmaley Catholic School, Inc.is committed to the following mission: 
+                  
+                  <li>1 <strong>Authenticity:</strong> To establish among member schools a Catholic identity centered on Jesus Christ, and aligned with the teachings of the church;</li>
+                  <li>2 <strong>Leadership:</strong> To ensure a dynamic school operation through efficient governance; </li>
+                  <li>3 <strong>Developmental Learning:</strong> To implement a curriculum enriched with Gospel values through effective instruction and witnessing;</li>
+                  <li>4 <strong>Community:</strong> To build a harmonious Community in the spirit of synodality with respect to diversity; and;</li>
+                   <li>5 <strong>Sustainability:</strong> To promote institutional advancement by establishing partnerships and linkages.</li>
                 </p>
               </CardContent>
             </Card>
@@ -140,9 +152,7 @@ const About = () => {
               <CardContent className="p-8">
                 <h3 className="text-2xl font-serif font-bold text-primary mb-4">Vision</h3>
                 <p className="text-muted-foreground">
-                  To be a premier Catholic educational institution recognized for academic excellence,
-                  strong moral foundation, and producing graduates who are competent, compassionate,
-                  and committed to serving God and community.
+                  In communio, the Binmaley Catholic School, Inc. form Christ-centered stewards through holistic education and formation.
                 </p>
               </CardContent>
             </Card>
@@ -151,11 +161,14 @@ const About = () => {
               <CardContent className="p-8">
                 <h3 className="text-2xl font-serif font-bold text-primary mb-4">Core Values</h3>
                 <ul className="space-y-2 text-muted-foreground">
-                  <li>• <strong>Faith:</strong> Rooted in Catholic teachings</li>
-                  <li>• <strong>Excellence:</strong> Pursuit of academic quality</li>
-                  <li>• <strong>Integrity:</strong> Honesty and moral uprightness</li>
-                  <li>• <strong>Service:</strong> Commitment to community</li>
-                  <li>• <strong>Respect:</strong> Dignity for all persons</li>
+                  <li><strong>1</strong> To nurture a Catholic identity of the school through faith formation, academic excellence, and service. </li>
+                  <li><strong>2</strong> To foster effective and strategic sustainable development through cohesive administrative and financial management. </li>
+                  <li><strong>3</strong> To enforce standardization of policies and benefits for the continued survival of the school and global competitiveness. </li>
+                  <li><strong>4</strong> To implement a clearly articulated, rigorous curriculum that is responsive to relevant standards, employs 21st-century skills, is responsive to the Gospel values, and appreciative of the local culture through effective instruction. </li>
+                  <li><strong>5</strong> To promote communion with the Church, other schools, stakeholders, and other social institutions to strengthen partnerships and linkages. </li>
+                  <li><strong>6</strong> To produce worthy Christian citizens who are knowledgeable, skillful, globally competitive, and well-equipped with Filipino values.</li>
+                  <li><strong>7</strong> To prepare learners to accept the challenges brought by the ever-changing trend of global innovations with the essential competencies and lifelong understanding they need. </li>
+                  <li><strong>8</strong> To give every learner an equal opportunity to the services that the school has to offer and ensure that no learner is left behind.</li>
                 </ul>
               </CardContent>
             </Card>

@@ -6,56 +6,56 @@ import { Badge } from "@/components/ui/badge";
 const Announcements = () => {
   const announcements = [
     {
-      date: "March 15, 2024",
+      date: "April 24, 2025",
       type: "important",
-      title: "Enrollment for School Year 2024-2025 Now Open",
+      title: "Enrollment for School Year 2025-2026 Now Open",
       content: "Enrollment for the upcoming school year is now open for both new and returning students. Visit the Registrar's Office during office hours to complete your enrollment.",
       pinned: true,
     },
     {
-      date: "March 10, 2024",
+      date: "June 16, 2025",
       type: "event",
-      title: "Upcoming Foundation Day Celebration",
-      content: "Join us in celebrating our school's Foundation Day on March 25, 2024. Various activities and competitions will be held throughout the week.",
+      title: "Start of School Year SY 2025–2026",
+      content: "First day of classes and beginning of Academic Quarter 1 for SY 2025–2026. Classes officially begin this day.",
       pinned: false,
     },
     {
-      date: "March 5, 2024",
+      date: "December 15-16, 2025",
       type: "academic",
-      title: "Third Quarter Examination Schedule Released",
-      content: "The schedule for third quarter examinations has been posted. Students are advised to check their respective class schedules and prepare accordingly.",
+      title: "Third Quarter Part 2 Examination Schedule",
+      content: "Third Quarter Part 2 examinations will be conducted on these dates. Students should review their lessons, take note of their subject schedules, and come prepared for their exams.",
       pinned: false,
     },
     {
-      date: "February 28, 2024",
+      date: "December 17, 2025",
       type: "event",
-      title: "Science Fair 2024",
-      content: "BCSI will host its annual Science Fair on April 5-6, 2024. All students are encouraged to participate and showcase their innovative projects.",
+      title: "Christmas Party",
+      content: "A fun-filled Christmas celebration with games, performances, and gift-giving to spread joy and holiday cheer among students and teachers.",
       pinned: false,
     },
     {
-      date: "February 20, 2024",
+      date: "December 18, 2025 - January 4, 2026",
+      type: "break",
+      title: "Christmas Break",
+      content: "Classes will be temporarily suspended for the Christmas and New Year holidays. Classes will resume after the break.",
+      pinned: false,
+    },
+    {
+      date: "January 5, 2025",
       type: "academic",
-      title: "Parent-Teacher Conference",
-      content: "Parent-Teacher Conference is scheduled for March 8, 2024. Parents are requested to attend for updates on their children's academic progress.",
-      pinned: false,
-    },
-    {
-      date: "February 15, 2024",
-      type: "important",
-      title: "Scholarship Application Deadline",
-      content: "Reminder: The deadline for scholarship applications is March 1, 2024. Submit all requirements to the Scholarship Committee before the due date.",
+      title: "Classes Resumes",
+      content: "Classes will officially resume after the Christmas break. Students are expected to return and continue regular academic activities.",
       pinned: false,
     },
   ];
 
   const importantDates = [
-    { event: "Foundation Day", date: "March 25, 2024" },
-    { event: "Third Quarter Exams", date: "March 18-22, 2024" },
-    { event: "Science Fair", date: "April 5-6, 2024" },
-    { event: "Holy Week Break", date: "March 28 - April 2, 2024" },
-    { event: "Fourth Quarter Begins", date: "April 8, 2024" },
-    { event: "Recognition Day", date: "May 30, 2024" },
+    { event: "Educational Field Trip", date: "December 2, 2025" },
+    { event: "Ligliwa Color Fun Run", date: "December 5, 2025" },
+    { event: "Feast of The Immaculate Conception", date: "December 8, 2025" },
+    { event: "Rizal Day", date: "December 30, 2025" },
+    { event: "Christmas Day", date: "December 25, 2025" },
+    { event: "End of School Year", date: "March 31, 2026" },
   ];
 
   const getIcon = (type: string) => {
